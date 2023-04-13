@@ -1,0 +1,40 @@
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: $slider-controls;
+  font-size: 70px;
+}
+.swiper{
+  width: 100%;
+}
+.swiper-wrapper {
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  width: auto;
+}
+
+.swiper-slide img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.swiper-wrapper,
+.swiper-slide {
+  -moz-transform-style: flat;
+  -webkit-transform-style: flat;
+  -ms-transform-style: flat;
+  transform-style: flat;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+@media (min-width: $table) {
+  .swiper-wrapper {
+    width: 100%;
+    min-height: 900px;
+  }
+}

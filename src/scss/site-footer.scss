@@ -1,0 +1,45 @@
+.site-footer {
+  padding: 25px;
+}
+
+.site-footer__company-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.site-footer__company-wrap {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.site-footer__telephone-num {
+  text-decoration: none;
+  color: $base-color;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.site-footer__contacts-wrap {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.site-footer__location-title {
+  font-size: 24px;
+}
+
+@media (min-width: $table) {
+  .site-footer {
+    margin: 0 auto;
+  }
+  .footer__telephone-wrapper {
+    margin-bottom: 10px;
+  }
+  .site-footer__company-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

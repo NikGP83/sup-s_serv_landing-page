@@ -1,0 +1,14 @@
+.location {
+    margin-bottom: 5px;
+}
+
+.map {
+    height:300px;
+    pointer-events: none;
+}
+
+@media(min-width: 768px) {
+    .map {
+        height:600px;
+    }
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/anonymous-pro-v21-latin_cyrillic-regular.woff2') format('woff2'), 
+  }
+
+body {
+  min-width: 320px;
+  font-family: 'Anonymous Pro', monospace;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: $base-color;
+}
+
+.page {
+  height: 100%;
+}
